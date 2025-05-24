@@ -1,0 +1,149 @@
+/* Estilos generales (se mantienen igual) */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+/* Estilos del header (se mantienen igual) */
+header h1 {
+    text-align: center; 
+    color: #ffffff;
+}
+
+header p {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Estilos de navegación (se mantienen igual) */
+nav {
+    width: 100%;
+    text-align: center;
+    padding: 0px 0;
+    border: none;
+}
+
+nav a {
+    text-decoration: none;
+    border: none;
+}
+
+nav ul {
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color: #c05b5b;
+    border: none;
+}
+
+nav ul li {
+    background-size: none;
+    -webkit-text-fill-color: #000000;
+    list-style-type: none;
+    background-color: (34, 126, 206);
+    padding: 14px 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav ul li:hover {
+    background-color: #bdb9b9;
+    color: #ff9900;
+}
+
+/* Estilos del main */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    color: #802121;
+    background-color: #242323;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Estilos de la tabla de productos */
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+td {
+    background-color: #242323;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    vertical-align: top;
+    text-align: center;
+}
+
+td article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+td img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.precio {
+    color: #c05b5b;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos del footer (se mantienen igual) */
+footer {
+    text-align: center;
+    padding: 20px 15px;
+    background-color: #802121;
+    color: #f0e6de; 
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+footer a {
+    color: #eee4e1; 
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer p {
+    margin: 6px 0;
+}
+
+/* Estilos para el menú responsive */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}

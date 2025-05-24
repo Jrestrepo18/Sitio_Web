@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - EliteMotors</title>
+    <link rel="stylesheet" href="../css/productos.css">
+</head>
+<body>
+    <header>
+        <h1>EliteMotors</h1>
+        <p>Donde el lujo encuentra la carretera.</p>
+        <button class="menu-toggle" id="toggle-menu">☰</button>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../html/productos.html">Productos</a></li>
+                <li><a href="../html/blog.html">Blog</a></li>
+                <li><a href="../html/contacto.html">Contacto</a></li>
+                <li><a href="../html/sobre_mi.html">Sobre mí</a></li>
+                <li><a href="../html/etiquetas.html">Etiquetas</a></li>
+                <li><a href="../html/galeria.html">Galería</a></li>
+            </ul>
+        </nav>
+
+    <main>
+        <h2>Nuestros Productos</h2>
+        
+        <table>
+            <tr>
+                <td>
+                    <article>
+                        <h3>Modelo Exclusivo 2024</h3>
+                        <img src="/imagenes/carro 1.jpg" alt="Auto de lujo" width="350">
+                        <p class="precio">$199,999</p>
+                    </article>
+                </td>
+                <td>
+                    <article>
+                        <h3>Edición Limitada</h3>
+                        <img src="/imagenes/carro 2.jpg" alt="Auto deportivo" width="350">
+                        <p class="precio">$199,999</p>
+                    </article>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <article>
+                        <h3>Clásico Modernizado</h3>
+                        <img src="/imagenes/carro 3.jpg" alt="Auto clásico" width="350">
+                        <p class="precio">$199,999</p>
+                    </article>
+                </td>
+                <td>
+                    <article>
+                        <h3>Futurista</h3>
+                        <img src="/imagenes/carro 4.jpg" alt="Auto futurista" width="350">
+                        <p class="precio">$199,999</p>
+                    </article>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>© 2025 EliteMotors. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:contacto@EliteMotors.com">contacto@EliteMotors.com</a> | Tel: 3216416942</p>
+        <p>Síguenos:
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('toggle-menu');
+        const nav = document.getElementById('main-nav');
+        toggleBtn.addEventListener('click', () => {
+            nav.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

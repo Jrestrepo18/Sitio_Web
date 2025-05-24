@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="funciones.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/galeria.css">
+    <title>Galeria</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../html/productos.html">Productos</a></li>
+            <li><a href="../html/blog.html">Blog</a></li>
+            <li><a href="../html/contacto.html">Contacto</a></li>
+            <li><a href="../html/sobre_mi.html">Sobre mí</a></li>
+            <li><a href="../html/etiquetas.html">Etiquetas</a></li>
+            <li><a href="../html/galeria.html">Galería</a></li>
+        </ul>
+    </nav>
+    <main class="galeria-container">
+        <h2>Galería de EliteMotors</h2>
+        
+        <section class="galeria-grid">
+            <figure class="galeria-item">
+                <img src="../imagenes/Ferrari Rojo en carretera.jpg" alt="Ferrari Rojo en carretera">
+                <figcaption>Ferrari Rojo - Velocidad y elegancia</figcaption>
+            </figure>
+            
+            <figure class="galeria-item">
+                <img src="../imagenes/Porsche en curva.jpg" alt="Porsche en curva">
+                <figcaption>Porsche 911 - Precisión alemana</figcaption>
+            </figure>
+            
+            <figure class="galeria-item">
+                <img src="../imagenes/Lamborghini amarillo.jpg" alt="Lamborghini amarillo">
+                <figcaption>Lamborghini - Diseño audaz</figcaption>
+            </figure>
+            
+            <figure class="galeria-item">
+                <img src="../imagenes/Interior de lujo.jpg" alt="Interior de lujo">
+                <figcaption>Interior premium - Artesanía fina</figcaption>
+            </figure>
+            
+            <figure class="galeria-item">
+                <img src="../imagenes/BMW en atardecer.jpg" alt="BMW en atardecer">
+                <figcaption>BMW Serie 7 - Sofisticación</figcaption>
+            </figure>
+            
+            <figure class="galeria-item">
+                <img src="../imagenes/Mercedes-Benz clásico.jpg"Mercedes-Benz clásico">
+                <figcaption>Mercedes-Benz - Tradición e innovación</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 EliteMotors. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:contacto@EliteMotors.com">contacto@EliteMotors.com</a> | Tel: 3216416942</p>
+        <p>Síguenos:
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('toggle-menu');
+        const nav = document.getElementById('main-nav');
+        toggleBtn.addEventListener('click', () => {
+            nav.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
+</body>
+</html>

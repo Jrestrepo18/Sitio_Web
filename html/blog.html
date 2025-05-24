@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Sencillo</title>
+    <link rel="stylesheet" href="../css/blog.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../html/productos.html">Productos</a></li>
+            <li><a href="../html/blog.html">Blog</a></li>
+            <li><a href="../html/contacto.html">Contacto</a></li>
+            <li><a href="../html/sobre_mi.html">Sobre mí</a></li>
+            <li><a href="../html/etiquetas.html">Etiquetas</a></li>
+            <li><a href="../html/galeria.html">Galería</a></li>
+        </ul>
+    </nav>
+    <main class="blog-container">
+        <h2>Blog de EliteMotors</h2>
+        
+        <article class="entrada-blog">
+            <h2>Los Nuevos Modelos 2024</h2>
+            <div class="meta-articulo">
+                <address>Por: Carlos Méndez</address>
+                <time datetime="2024-05-15">15 de Mayo, 2024</time>
+            </div>
+            
+            <div class="contenido-articulo">
+                <img src="../imagenes/blog1.jpg" alt="Nuevos modelos 2024" class="imagen-blog">
+                <p>Este año, las principales marcas automotrices han superado todas las expectativas con sus lanzamientos. Desde motores más eficientes hasta sistemas de seguridad revolucionarios, la industria está dando un salto cualitativo importante.</p>
+                
+                <p>Destacan especialmente los nuevos sistemas de conducción autónoma nivel 3 que comenzarán a verse en modelos de producción masiva, un hito que marcará un antes y después en la historia del automóvil.</p>
+                
+                <h3>Tendencias principales:</h3>
+                <ul>
+                    <li>Electrificación de gamas completas</li>
+                    <li>Materiales sostenibles en interiores</li>
+                    <li>Tecnología de asistencia al conductor mejorada</li>
+                </ul>
+            </div>
+        </article>
+        
+        <article class="entrada-blog">
+            <h2>Cuidado y Mantenimiento de Autos de Lujo</h2>
+            <div class="meta-articulo">
+                <address>Por: Ana Rodríguez</address>
+                <time datetime="2024-04-28">28 de Abril, 2024</time>
+            </div>
+            
+            <div class="contenido-articulo">
+                <img src="../imagenes/blog2.jpg" alt="Mantenimiento de auto de lujo" class="imagen-blog">
+                <p>Poseer un automóvil de alta gama conlleva responsabilidades especiales de mantenimiento. Estos vehículos requieren cuidados específicos para mantener su rendimiento y valor a lo largo del tiempo.</p>
+                
+                <h3>Consejos esenciales:</h3>
+                <ol>
+                    <li>Cambios de aceite con productos premium</li>
+                    <li>Limpieza profesional periódica</li>
+                    <li>Almacenamiento adecuado en temporadas de poco uso</li>
+                    <li>Revisiones electrónicas completas cada 6 meses</li>
+                </ol>
+                
+                <p>Recuerda que en EliteMotors ofrecemos servicios de mantenimiento especializado para todas las marcas de lujo, con técnicos certificados por los fabricantes.</p>
+    </main>
+
+    <footer>
+        <p>© 2025 EliteMotors. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:contacto@EliteMotors.com">contacto@EliteMotors.com</a> | Tel: 3216416942</p>
+        <p>Síguenos:
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('toggle-menu');
+        const nav = document.getElementById('main-nav');
+        toggleBtn.addEventListener('click', () => {
+            nav.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
+</body>
+</html>
